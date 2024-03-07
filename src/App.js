@@ -14,6 +14,7 @@ import Stats from "./components/Stats";
 import Why from "./components/Why";
 import Calculate from "./components/Calculate";
 import Trade from "./components/Trade";
+import Features from "./components/Features";
 
 const App = () => {
   // mobile nav state
@@ -43,6 +44,7 @@ const App = () => {
       <Why />
       <Calculate />
       <Trade />
+      <Features />
       <div className="h-[2000px]"></div>
     </div>
   );
