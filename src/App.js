@@ -10,10 +10,11 @@ import "aos/dist/aos.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import NavMobile from "./components/NavMobile";
+import Stats from "./components/Stats";
 
 const App = () => {
   // mobile nav state
-  const [navMobile, setNavMobile] = useState(true);
+  const [navMobile, setNavMobile] = useState(false);
 
   // aos init
   useEffect(() => {
@@ -35,6 +36,7 @@ const App = () => {
       >
         <NavMobile setNavMobile={setNavMobile} />
       </div>
+      <Stats />
     </div>
   );
 };
