@@ -15,6 +15,7 @@ import Why from "./components/Why";
 import Calculate from "./components/Calculate";
 import Trade from "./components/Trade";
 import Features from "./components/Features";
+import Newsletter from "./components/Newsletter";
 
 const App = () => {
   // mobile nav state
@@ -45,6 +46,7 @@ const App = () => {
       <Calculate />
       <Trade />
       <Features />
+      <Newsletter />
       <div className="h-[2000px]"></div>
     </div>
   );
