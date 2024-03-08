@@ -16,6 +16,7 @@ import Calculate from "./components/Calculate";
 import Trade from "./components/Trade";
 import Features from "./components/Features";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 const App = () => {
   // mobile nav state
@@ -47,7 +48,7 @@ const App = () => {
       <Trade />
       <Features />
       <Newsletter />
-      <div className="h-[2000px]"></div>
+      <Footer />
     </div>
   );
 };
